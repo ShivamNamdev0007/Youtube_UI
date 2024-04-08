@@ -1,0 +1,179 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+
+}
+.header .left
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header .left i
+{
+    cursor: pointer;
+}
+.header .left img
+{
+    width: 40px;    
+}
+.header .left h2 span
+{
+    font-size:10px;
+    padding-left: 5px;
+
+}
+/**********center**********/
+.header .center form
+{
+    display: flex;
+    border: 1.5px solid #fff;
+
+}
+.header .center form input
+{
+    width: 500px;
+    height: 100%;
+    padding: 10px;
+   
+}
+
+  .header .center form i
+  {
+    cursor: pointer;
+    margin: auto;
+   
+  }
+  .material-symbols-outlined
+
+  {
+    padding-left: 15px;
+  }
+  /************main*********/
+  .container
+  {
+
+       display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+  }
+  .aside
+  {
+    border: 2px solid black;
+    width: 18%;
+    height: 100%;
+    
+  }
+  .main
+  {
+    margin-left: 10px;
+    flex: 0 0 75%;
+    height: 100%;
+    
+
+  }
+  .main .uper_contant ul
+  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+
+    
+  }
+  .main .uper_contant ul li
+  {
+    margin: 10px;
+    border-style:groove;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .main_heading
+  {
+    margin-left: 10px;
+  }
+
+  /* video  */
+  .video_container  
+   {
+    margin-top: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-between;  
+  }
+  .video
+  {
+    width: 250px;
+
+  }
+  .thumbnail{
+    margin: 3px;
+  }
+  .video-details {
+    display: flex;
+    gap: 10px;
+  }
+  .author img {
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+   .video-title p,
+    span {
+      color: rgb(96, 96, 96);
+      
+    }
+
+     /* side */
+    .sidebar{
+        height: 100%;
+        width: 230px;
+        background-color: white;
+        overflow-y: scroll;
+    }
+    
+    .sidebar_categories{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .sidebar_category{
+        display: flex;
+        align-items: center;
+        padding: 15px 25px;
+    }
+    
+    .sidebar_category span{
+        margin-left: 15px;
+    }
+    
+    .sidebar_category:hover{
+        background-color: #e5e5e5;
+        cursor: pointer;
+    }
+    
+    .sidebar::-webkit-scrollbar{
+        display:none
+    }
+    
+    hr{
+        height: 1px;
+        background-color: #e5e5e5;
+        border: none;
+    }
